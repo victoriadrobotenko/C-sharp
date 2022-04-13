@@ -32,7 +32,7 @@ We can make lot of branch. Then we can go to new branch ahd format documets into
 - "**git commit** -am" - it's like 'git add -u' + 'git commit -m"
 
 ### rewrite commit or rename one:
-- Type "--amend" (mayby with "-m 'message'") to rename commit or rewrite if you have already changed something.
+- Type "--amend" (may by with "-m 'message'") to rename commit or rewrite if you have already changed something.
 
 
 ### checkout to commit:
