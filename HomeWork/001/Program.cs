@@ -12,6 +12,7 @@ Console.WriteLine("input first digit");
 int firstDigit = Convert.ToInt32(Console.ReadLine());
 
 
+
 Console.WriteLine("input second digit");
 int secondDigit = Convert.ToInt32(Console.ReadLine());
 

@@ -14,6 +14,6 @@ int chislo = 2;
 while (chislo <= N)
 {
     Console.Write(chislo + " ");
-    chislo = chislo + 2;
+    chislo +=2;
 }
 
