@@ -119,16 +119,21 @@ if (a>7||a<0)
 
 Console.WriteLine */
 
-
+/*
 using System;
 Console.Clear();
 
+
+/*
 int num = new Random().Next(100,1000);
 int first = num/100;
 int second = num % 10;  //значит взять остаток поделить на 10
 Console.WriteLine(num);
 Console.Write(first);
 Console.Write(second);
+
+
+
 
 
 
@@ -142,5 +147,53 @@ Console.Write(second);
 
 
 //тернарный оператор
-                   //?значит истина    :значит ложь
-string answer = (a1>a2)?$"{num}>{a1}":$"{num}>{a2}";
+                     //?значит истина    :значит ложь
+// string answer = (a1 > a2 ) ?$"{num}>{a1}":$"{num}>{a2}";
+
+
+
+
+
+Console.WriteLine("kddjkdjkdj");
+
+Console.ReadLine();
+
+
+*/
+
+/*void Method(int a, int b)
+{
+    a = b * b;
+}
+
+
+int first01 = 10;
+int second01 = 4;
+
+Method(first01, second01);
+
+Console.WriteLine(first01);
+
+
+int a =34;
+int b = 23;
+int c =12;
+int max = (a>b&&a>c)? a:(b>a&&b>c)?b:c; */
+
+using System;
+using static System.Console;
+Console.Clear();
+/*Write("Введите число");
+int num = Convert.ToInt32(ReadLine());
+string result = (num % 7==0 || num%23 ==0)?"кратно 7 и 23":"не кратно";
+WriteLine(result);*/
+WriteLine("Введите первое число");
+int a = Convert.ToInt32(ReadLine());
+WriteLine("Введите второе число");
+int b = Convert.ToInt32(ReadLine());
+string result = (a==b*b)?$"{a} является квадратом {b}":(b==a*a)?$"{b} является квадратом {a}": "не является квадратом";
+WriteLine(result);
+
+
+
+
