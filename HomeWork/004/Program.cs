@@ -9,11 +9,10 @@
 Console.WriteLine("input digit");
 int N = Convert.ToInt32(Console.ReadLine());
 
-int chislo = 2;
+int result = 2;
 
-while (chislo <= N)
+while (result <= N)
 {
-    Console.Write(chislo + " ");
-    chislo = chislo + 2;
+    Console.Write(result + " ");
+    result += 2; // = result + 2;
 }
-
