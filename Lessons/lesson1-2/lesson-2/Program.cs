@@ -80,4 +80,43 @@ Console.WriteLine(max);
 
 Console.WriteLine("Введите число");
 int num = int.Parse(Console.ReadLine());
+using System;
+Console.Clear;
+int num = int.Parse(Console.ReadLine());
+switch (num)
+{
+    case 1:
+    {
+      Console.WriteLine("x>0, y>0");
+      break;
+    }
+   case 2:
+   {
+       Console.WriteLine("x<0, y>0");
+       break;
+   }
+   case 3:
+   {
+       Console.WriteLine("x<0,y<0");
+       break;
+   }
+   case 4:
+   {
+       Console.WriteLine("x>0, y<0");
+       break;
+   }
+    default: // если условия не выполняются
+    {
+        Console.WriteLine("введена неправильная четверть");
+        break;
+    }
+}
 
+
+
+(a1>0&&a2>0) //&& если первое условие не выполняется, то прверить второе условие
+
+
+double step = Math.Pow(3,4); // возводим в степень 3-что возводим, 4 в какую степень
+ double step = Math.Sqrt(Math.Pow(3,4)); // получить квадрат из степени
+double a = Math.Sqrt(3); // получить квадрат 3
